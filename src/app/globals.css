@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -24,3 +25,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.font-playfair { font-family: var(--font-playfair), serif; }
+.font-bebas { font-family: var(--font-bebas), cursive; }
+.font-oswald { font-family: var(--font-oswald), Arial, sans-serif; }
+.font-anton { font-family: var(--font-anton), Arial, sans-serif; }
+.font-lato { font-family: var(--font-lato), Arial, sans-serif; }
+.font-source { font-family: var(--font-source), monospace; }
