@@ -1,6 +1,8 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
+import emailjs from '@emailjs/browser';
 
 export default function FAQ() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -310,12 +312,12 @@ export default function FAQ() {
       {/* Header */}
       <header className="bg-black text-white py-6 shadow-lg border-b border-amber-500/20">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-          <h1 className="text-3xl font-oswald tracking-tight uppercase text-amber-500">D'nice Investments</h1>
+          <h1 className="text-3xl font-oswald tracking-tight uppercase text-amber-500">D&apos;nice Investments</h1>
           <nav className="mt-2 md:mt-0 flex gap-6 text-lg font-lato">
-            <a href="/" className="hover:text-amber-500 transition">Home</a>
-            <a href="/#services" className="hover:text-amber-500 transition">Services</a>
-            <a href="/#testimonials" className="hover:text-amber-500 transition">Testimonials</a>
-            <a href="/#contact" className="hover:text-amber-500 transition">Contact</a>
+            <Link href="/" className="hover:text-amber-500 transition">Home</Link>
+            <Link href="/#services" className="hover:text-amber-500 transition">Services</Link>
+            <Link href="/#testimonials" className="hover:text-amber-500 transition">Testimonials</Link>
+            <Link href="/#contact" className="hover:text-amber-500 transition">Contact</Link>
           </nav>
         </div>
       </header>
@@ -466,7 +468,7 @@ export default function FAQ() {
               <a href="mailto:dnicein@outlook.com" className="hover:text-amber-500 transition">dnicein@outlook.com</a>
             </div>
           </div>
-          <div className="text-sm text-gray-400">&copy; {new Date().getFullYear()} D'nice Investments. All rights reserved.</div>
+          <div className="text-sm text-gray-400">&copy; {new Date().getFullYear()} D&apos;nice Investments. All rights reserved.</div>
         </div>
       </footer>
     </div>

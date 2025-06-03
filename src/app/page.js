@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -164,7 +165,7 @@ export default function Home() {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_name: 'D\'nice Investments',
+          to_name: 'D&apos;nice Investments',
           reply_to: formData.email, // This ensures replies go to the sender
         },
         'nntt3GIjCUeAiYFRO'
@@ -191,7 +192,7 @@ export default function Home() {
       {/* Header */}
       <header className="bg-black text-white py-6 shadow-lg border-b border-amber-500/20">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-          <h1 className="text-3xl font-oswald tracking-tight uppercase text-amber-500">D'nice Investments</h1>
+          <h1 className="text-3xl font-oswald tracking-tight uppercase text-amber-500">D&apos;nice Investments</h1>
           <nav className="mt-2 md:mt-0 flex gap-6 text-lg font-lato">
             <a href="#services" className="hover:text-amber-500 transition">Services</a>
             <a href="#testimonials" className="hover:text-amber-500 transition">Testimonials</a>
@@ -211,7 +212,7 @@ export default function Home() {
           <a href="#services" className="inline-block bg-amber-500 hover:bg-amber-400 text-black font-semibold px-8 py-4 rounded shadow-lg transition font-oswald tracking-wide uppercase">Explore Our Services</a>
         </div>
         <div className="flex-1 flex justify-center">
-          <img src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Abstract Financial Growth" className="rounded-xl shadow-2xl w-full max-w-xs border-4 border-amber-500/30" />
+          <Image src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Abstract Financial Growth" width={320} height={213} className="rounded-xl shadow-2xl w-full max-w-xs border-4 border-amber-500/30" />
         </div>
       </section>
 
@@ -288,7 +289,7 @@ export default function Home() {
           
           {status.submitted && (
             <div className="text-green-400 text-center mt-2">
-              Thank you for your message! We'll get back to you soon.
+              Thank you for your message! We&apos;ll get back to you soon.
             </div>
           )}
           
@@ -299,7 +300,7 @@ export default function Home() {
           )}
         </form>
         <div className="bg-gray-800 rounded-xl shadow p-6 text-white font-lato text-lg border border-amber-500/30">
-          <div className="mb-2 font-oswald text-2xl text-amber-500">D'nice Investments</div>
+          <div className="mb-2 font-oswald text-2xl text-amber-500">D&apos;nice Investments</div>
           <div className="flex items-center gap-2 mb-2">
             <svg className="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -334,7 +335,7 @@ export default function Home() {
               <a href="mailto:dnicein@outlook.com" className="hover:text-amber-500 transition">dnicein@outlook.com</a>
             </div>
           </div>
-          <div className="text-sm text-gray-400">&copy; {new Date().getFullYear()} D'nice Investments. All rights reserved.</div>
+          <div className="text-sm text-gray-400">&copy; {new Date().getFullYear()} D&apos;nice Investments. All rights reserved.</div>
         </div>
       </footer>
     </div>

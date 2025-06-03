@@ -1,5 +1,8 @@
 'use client';
 
+import Link from 'next/link';
+import Image from 'next/image';
+
 const services = [
 	{
 		title: 'Market Entry Strategy',
@@ -172,15 +175,15 @@ export default function CommercialStrategy() {
 			<header className='bg-[#101113] text-[#BFA76A] py-8 shadow'>
 				<div className='max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between'>
 					<h1 className='text-4xl font-playfair tracking-tight uppercase'>
-						D’nice Investments
+						D&apos;nice Investments
 					</h1>
 					<nav className='mt-4 md:mt-0 flex gap-8 text-lg font-bebas'>
-						<a
+						<Link
 							href='/'
 							className='hover:text-[#FFFFFF] transition'
 						>
 							Home
-						</a>
+						</Link>
 						<a
 							href='#services'
 							className='hover:text-[#FFFFFF] transition'
@@ -215,9 +218,11 @@ export default function CommercialStrategy() {
 					</a>
 				</div>
 				<div className='flex-1 flex justify-center'>
-					<img
+					<Image
 						src='https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=500&q=80'
 						alt='Strategy Consulting'
+						width={320}
+						height={213}
 						className='rounded-xl shadow-2xl w-full max-w-xs border-4 border-[#BFA76A]'
 					/>
 				</div>
@@ -259,7 +264,7 @@ export default function CommercialStrategy() {
 				</h3>
 				<div className='bg-[#232528] rounded-xl shadow p-8 text-[#E5E5E5] font-source text-lg'>
 					<div className='mb-2 font-bebas text-2xl text-[#BFA76A]'>
-						D'nice Investments
+						D&apos;nice Investments
 					</div>
 					<div>Box 31164 - 00600</div>
 					<div>Nairobi</div>
@@ -286,7 +291,7 @@ export default function CommercialStrategy() {
 
 			{/* Footer */}
 			<footer className='bg-[#101113] text-[#BFA76A] py-6 text-center font-bebas tracking-widest text-lg'>
-				&copy; {new Date().getFullYear()} D’nice Investments. All rights
+				&copy; {new Date().getFullYear()} D&apos;nice Investments. All rights
 				reserved.
 				<br />
 				Box 31164 - 00600, Nairobi | dnicein@outlook.com | +254 793 951
