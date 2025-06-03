@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Link from 'next/link';
 
 // Add this to your layout.js or _app.js for fonts:
 // <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
@@ -126,11 +127,11 @@ const services = [
 const testimonials = [
   {
     name: "Jane M.",
-    text: "D'nice Investments helped me secure a personal loan quickly and at a great rate. Highly recommended!",
+    text: "D'nice Investments helped me secure a personal loan of kes 2 million quickly and at a great rate. Highly recommended!",
   },
   {
-    name: "Samuel K.",
-    text: "Their business loan facilitation service was seamless. I got the capital I needed to expand my business.",
+    name: "SM ventures.",
+    text: "Their business loan facilitation service was seamless. I got the capital of kes 900 million I needed to expand my business.",
   },
 ];
 
@@ -194,9 +195,9 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
           <h1 className="text-3xl font-oswald tracking-tight uppercase text-amber-500">D&apos;nice Investments</h1>
           <nav className="mt-2 md:mt-0 flex gap-6 text-lg font-lato">
-            <a href="#services" className="hover:text-amber-500 transition">Services</a>
             <a href="#testimonials" className="hover:text-amber-500 transition">Testimonials</a>
             <a href="#contact" className="hover:text-amber-500 transition">Contact</a>
+            <Link href="/commercial-strategy" className="hover:text-amber-500 transition">Commercial Strategy</Link>
             <a href="/faq" className="hover:text-amber-500 transition">FAQ</a>
           </nav>
         </div>

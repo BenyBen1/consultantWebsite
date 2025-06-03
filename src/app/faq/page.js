@@ -315,9 +315,9 @@ export default function FAQ() {
           <h1 className="text-3xl font-oswald tracking-tight uppercase text-amber-500">D&apos;nice Investments</h1>
           <nav className="mt-2 md:mt-0 flex gap-6 text-lg font-lato">
             <Link href="/" className="hover:text-amber-500 transition">Home</Link>
-            <Link href="/#services" className="hover:text-amber-500 transition">Services</Link>
             <Link href="/#testimonials" className="hover:text-amber-500 transition">Testimonials</Link>
             <Link href="/#contact" className="hover:text-amber-500 transition">Contact</Link>
+            <Link href="/faq" className="hover:text-amber-500 transition">FAQ</Link>
           </nav>
         </div>
       </header>

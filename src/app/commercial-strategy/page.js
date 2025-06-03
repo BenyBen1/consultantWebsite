@@ -13,7 +13,7 @@ const services = [
 				height='32'
 				fill='none'
 				stroke='currentColor'
-				className='text-[#BFA76A]'
+				className='text-amber-500'
 			>
 				<circle cx='16' cy='16' r='14' strokeWidth='2' />
 				<path d='M10 16h12M16 10v12' strokeWidth='2' />
@@ -22,14 +22,14 @@ const services = [
 	},
 	{
 		title: 'Business Growth Planning',
-		desc: 'Strategic roadmaps for sustainable expansion, scalability, customer acquisition, and market share growth.',
+		desc: 'Strategic roadmaps for sustainable business expansion, focusing on scalability, customer acquisition, and market share growth.',
 		icon: (
 			<svg
 				width='32'
 				height='32'
 				fill='none'
 				stroke='currentColor'
-				className='text-[#BFA76A]'
+				className='text-amber-500'
 			>
 				<rect x='6' y='14' width='6' height='12' rx='2' strokeWidth='2' />
 				<rect x='16' y='8' width='10' height='18' rx='2' strokeWidth='2' />
@@ -38,14 +38,14 @@ const services = [
 	},
 	{
 		title: 'Operational Efficiency Consulting',
-		desc: 'Optimize business processes to reduce costs, improve productivity, and enhance performance.',
+		desc: 'Optimize business processes to reduce costs, improve productivity, and enhance operational performance.',
 		icon: (
 			<svg
 				width='32'
 				height='32'
 				fill='none'
 				stroke='currentColor'
-				className='text-[#BFA76A]'
+				className='text-amber-500'
 			>
 				<circle cx='16' cy='16' r='14' strokeWidth='2' />
 				<path d='M16 10v6l4 2' strokeWidth='2' />
@@ -54,14 +54,14 @@ const services = [
 	},
 	{
 		title: 'Competitive Positioning Analysis',
-		desc: 'Assess competitors and trends to position your business for advantage and brand differentiation.',
+		desc: 'Assess competitors and market trends to position your business for a competitive advantage and brand differentiation.',
 		icon: (
 			<svg
 				width='32'
 				height='32'
 				fill='none'
 				stroke='currentColor'
-				className='text-[#BFA76A]'
+				className='text-amber-500'
 			>
 				<rect x='8' y='8' width='16' height='16' rx='4' strokeWidth='2' />
 				<path d='M16 12v8M12 16h8' strokeWidth='2' />
@@ -70,14 +70,14 @@ const services = [
 	},
 	{
 		title: 'Strategic Partnership Development',
-		desc: 'Identify and foster partnerships or alliances to drive growth and expand market reach.',
+		desc: 'Identifying and fostering partnerships or alliances to drive business growth and expand market reach.',
 		icon: (
 			<svg
 				width='32'
 				height='32'
 				fill='none'
 				stroke='currentColor'
-				className='text-[#BFA76A]'
+				className='text-amber-500'
 			>
 				<circle cx='10' cy='16' r='4' strokeWidth='2' />
 				<circle cx='22' cy='16' r='4' strokeWidth='2' />
@@ -87,14 +87,14 @@ const services = [
 	},
 	{
 		title: 'Innovation and Product Strategy',
-		desc: 'Guide innovation, market fit analysis, and launch strategies for new or existing products.',
+		desc: 'Guiding businesses in developing innovative products or services, including ideation, market fit analysis, and launch strategies.',
 		icon: (
 			<svg
 				width='32'
 				height='32'
 				fill='none'
 				stroke='currentColor'
-				className='text-[#BFA76A]'
+				className='text-amber-500'
 			>
 				<path d='M16 4v8M16 20v8M8 16h16' strokeWidth='2' />
 				<circle cx='16' cy='16' r='6' strokeWidth='2' />
@@ -103,14 +103,14 @@ const services = [
 	},
 	{
 		title: 'Digital Transformation Strategy',
-		desc: 'Integrate digital technologies to enhance operations, engagement, and competitive edge.',
+		desc: 'Advising on the integration of digital technologies to enhance business operations, customer engagement, and competitive edge.',
 		icon: (
 			<svg
 				width='32'
 				height='32'
 				fill='none'
 				stroke='currentColor'
-				className='text-[#BFA76A]'
+				className='text-amber-500'
 			>
 				<rect x='6' y='6' width='20' height='20' rx='4' strokeWidth='2' />
 				<path d='M12 12h8v8h-8z' strokeWidth='2' />
@@ -119,14 +119,14 @@ const services = [
 	},
 	{
 		title: 'Risk Management Consulting',
-		desc: 'Evaluate strategic risks and recommend mitigation strategies for business resilience.',
+		desc: 'Evaluate strategic risks (e.g., market shifts, regulatory changes) and recommend mitigation strategies to ensure business resilience.',
 		icon: (
 			<svg
 				width='32'
 				height='32'
 				fill='none'
 				stroke='currentColor'
-				className='text-[#BFA76A]'
+				className='text-amber-500'
 			>
 				<polygon points='16,4 28,28 4,28' strokeWidth='2' />
 				<circle cx='16' cy='22' r='2' strokeWidth='2' />
@@ -136,14 +136,14 @@ const services = [
 	},
 	{
 		title: 'Customer Experience Optimization',
-		desc: 'Design strategies to improve satisfaction, loyalty, and retention through better service.',
+		desc: 'Designing strategies to improve customer satisfaction, loyalty, and retention through enhanced service delivery and engagement.',
 		icon: (
 			<svg
 				width='32'
 				height='32'
 				fill='none'
 				stroke='currentColor'
-				className='text-[#BFA76A]'
+				className='text-amber-500'
 			>
 				<circle cx='16' cy='16' r='14' strokeWidth='2' />
 				<path d='M10 20c2 2 8 2 12 0' strokeWidth='2' />
@@ -152,14 +152,14 @@ const services = [
 	},
 	{
 		title: 'Sustainability and ESG Strategy',
-		desc: 'Align business operations with ESG goals for long-term sustainability and stakeholder trust.',
+		desc: 'Developing strategies to align business operations with environmental, social, and governance (ESG) goals for long-term sustainability.',
 		icon: (
 			<svg
 				width='32'
 				height='32'
 				fill='none'
 				stroke='currentColor'
-				className='text-[#BFA76A]'
+				className='text-amber-500'
 			>
 				<circle cx='16' cy='16' r='14' strokeWidth='2' />
 				<path d='M16 10v6l4 2' strokeWidth='2' />
@@ -170,132 +170,90 @@ const services = [
 
 export default function CommercialStrategy() {
 	return (
-		<div className='min-h-screen bg-[#181A1B] font-lato'>
+		<div className='min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 font-lato text-gray-300'>
 			{/* Header */}
-			<header className='bg-[#101113] text-[#BFA76A] py-8 shadow'>
+			<header className='bg-black text-white py-6 shadow-lg border-b border-amber-500/20'>
 				<div className='max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between'>
-					<h1 className='text-4xl font-playfair tracking-tight uppercase'>
+					<h1 className='text-3xl font-oswald tracking-tight uppercase text-amber-500'>
 						D&apos;nice Investments
 					</h1>
-					<nav className='mt-4 md:mt-0 flex gap-8 text-lg font-bebas'>
+					<nav className='mt-2 md:mt-0 flex gap-6 text-lg font-lato'>
 						<Link
 							href='/'
-							className='hover:text-[#FFFFFF] transition'
+							className='hover:text-amber-500 transition'
 						>
 							Home
 						</Link>
-						<a
-							href='#services'
-							className='hover:text-[#FFFFFF] transition'
+						<Link
+							href='/#testimonials'
+							className='hover:text-amber-500 transition'
 						>
-							Strategy Services
-						</a>
-						<a
-							href='#contact'
-							className='hover:text-[#FFFFFF] transition'
+							Testimonials
+						</Link>
+						<Link
+							href='/#contact'
+							className='hover:text-amber-500 transition'
 						>
 							Contact
-						</a>
+						</Link>
+						<Link
+							href='/faq'
+							className='hover:text-amber-500 transition'
+						>
+							FAQ
+						</Link>
 					</nav>
 				</div>
 			</header>
 
-			{/* Hero */}
-			<section className='max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-12'>
-				<div className='flex-1'>
-					<h2 className='text-5xl font-playfair font-bold text-[#BFA76A] mb-6 leading-tight'>
-						Commercial Strategy Services
-					</h2>
-					<p className='text-xl text-[#E5E5E5] mb-8 font-lato'>
-						Elite strategic consulting for market leaders. We empower your
-						business with insight, innovation, and operational excellence.
-					</p>
-					<a
-						href='#services'
-						className='inline-block bg-[#BFA76A] hover:bg-[#101113] text-[#181A1B] hover:text-[#BFA76A] font-bebas px-8 py-4 rounded shadow transition tracking-wide uppercase border border-[#BFA76A]'
-					>
-						Explore Services
-					</a>
-				</div>
-				<div className='flex-1 flex justify-center'>
-					<Image
-						src='https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=500&q=80'
-						alt='Strategy Consulting'
-						width={320}
-						height={213}
-						className='rounded-xl shadow-2xl w-full max-w-xs border-4 border-[#BFA76A]'
-					/>
-				</div>
+			{/* Hero Section - Image Removed, Layout Adjusted */}
+			<section className='max-w-6xl mx-auto px-4 py-16 flex flex-col items-center text-center'>
+				<h2 className='text-5xl font-oswald font-bold text-amber-500 mb-4 leading-tight drop-shadow'>Unlock Your Business&apos;s Full Potential</h2>
+				<p className='text-xl text-gray-300 mb-8 font-lato max-w-3xl'>
+					Elite strategic consulting to drive growth, optimize operations, and achieve market leadership. We provide bespoke financial solutions and expert strategic guidance tailored to your unique needs.
+				</p>
+				<a href='#commercial-strategy-services' className='inline-block bg-amber-500 hover:bg-amber-400 text-black font-semibold px-8 py-4 rounded shadow-lg transition font-oswald tracking-wide uppercase'>Explore Services</a>
 			</section>
 
-			{/* Services */}
-			<section
-				id='services'
-				className='max-w-6xl mx-auto px-4 py-16'
-			>
-				<h3 className='text-3xl font-anton font-bold text-[#BFA76A] mb-12 text-center uppercase tracking-wider'>
-					Our Commercial Strategy Services
-				</h3>
-				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10'>
-					{services.map((service, idx) => (
+			{/* Commercial Strategy Services Section */}
+			<section id='commercial-strategy-services' className='max-w-6xl mx-auto px-4 py-16'>
+				<h2 className='text-4xl font-oswald font-bold text-amber-500 mb-12 text-center uppercase'>Our Commercial Strategy Services</h2>
+				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+					{services.map((service, index) => (
 						<div
-							key={service.title}
-							className='bg-[#232528] rounded-xl shadow-lg p-8 flex flex-col items-start border-t-4 border-[#BFA76A] hover:shadow-2xl transition'
+							key={index}
+							className='bg-gray-800 rounded-xl shadow-lg p-8 flex flex-col items-start border-t-4 border-amber-500 hover:shadow-2xl transition border border-amber-500/30'
 						>
-							<span className='mb-4'>{service.icon}</span>
-							<h4 className='text-xl font-bebas text-[#BFA76A] tracking-wide'>
+							<span className='mb-4 text-amber-500'>{service.icon}</span>
+							<h3 className='text-xl font-oswald font-semibold text-white mb-2'>
 								{service.title}
-							</h4>
-							<p className='mt-2 text-[#E5E5E5] font-lato'>
-								{service.desc}
-							</p>
+							</h3>
+							<p className='text-gray-300 font-lato'>{service.desc}</p>
 						</div>
 					))}
 				</div>
 			</section>
 
-			{/* Contact */}
-			<section
-				id='contact'
-				className='max-w-2xl mx-auto px-4 py-16'
-			>
-				<h3 className='text-2xl font-playfair font-bold text-[#BFA76A] mb-6 text-center uppercase'>
-					Contact Us
-				</h3>
-				<div className='bg-[#232528] rounded-xl shadow p-8 text-[#E5E5E5] font-source text-lg'>
-					<div className='mb-2 font-bebas text-2xl text-[#BFA76A]'>
-						D&apos;nice Investments
-					</div>
-					<div>Box 31164 - 00600</div>
-					<div>Nairobi</div>
-					<div className='mt-2'>
-						Email:{' '}
-						<a
-							href='mailto:dnicein@outlook.com'
-							className='text-[#BFA76A] underline'
-						>
-							dnicein@outlook.com
-						</a>
-					</div>
-					<div>
-						Tel:{' '}
-						<a
-							href='tel:+254793951000'
-							className='text-[#BFA76A] underline'
-						>
-							+254 793 951 000
-						</a>
-					</div>
-				</div>
-			</section>
-
 			{/* Footer */}
-			<footer className='bg-[#101113] text-[#BFA76A] py-6 text-center font-bebas tracking-widest text-lg'>
-				&copy; {new Date().getFullYear()} D&apos;nice Investments. All rights
-				reserved.
-				<br />
-				Box 31164 - 00600, Nairobi | dnicein@outlook.com | +254 793 951
-				000
+			<footer className='bg-black text-white py-6 text-center font-lato tracking-normal border-t border-amber-500/20'>
+				<div className='max-w-6xl mx-auto px-4'>
+					<div className='flex flex-col md:flex-row justify-center items-center gap-4 mb-2'>
+						<div className='flex items-center gap-2'>
+							<svg className='w-5 h-5 text-amber-500' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+								<path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' />
+								<path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M15 11a3 3 0 11-6 0 3 3 0 016 0z' />
+							</svg>
+							<span>Box 31164 - 00600, Nairobi</span>
+						</div>
+						<div className='flex items-center gap-2'>
+							<svg className='w-5 h-5 text-amber-500' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+								<path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z' />
+							</svg>
+							<a href='mailto:dnicein@outlook.com' className='hover:text-amber-500 transition'>dnicein@outlook.com</a>
+						</div>
+					</div>
+					<div className='text-sm text-gray-400'>&copy; {new Date().getFullYear()} D&apos;nice Investments. All rights reserved.</div>
+				</div>
 			</footer>
 			<style jsx global>{`
 				.font-playfair {
