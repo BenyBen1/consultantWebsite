@@ -5,8 +5,7 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Link from 'next/link';
 
-// Add this to your layout.js or _app.js for fonts:
-// <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+
 
 const icons = {
   personal: (
@@ -167,7 +166,7 @@ export default function Home() {
           from_email: formData.email,
           message: formData.message,
           to_name: 'D&apos;nice Investments',
-          reply_to: formData.email, // This ensures replies go to the sender
+          reply_to: formData.email,
         },
         'nntt3GIjCUeAiYFRO'
       );
