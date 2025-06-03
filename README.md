@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Consultant Website
+
+**The official website for D'nice Investments.**
+
+This website provides a clean and professional online presence for D'nice Investments, showcasing their services, expertise, and contact information. Built with the latest web technologies, it focuses on performance, user experience, and ease of use.
+
+## Features
+
+*   Clean and professional design
+*   Responsive layout (works on desktop, tablet, and mobile)
+*   Built with Next.js for optimal performance and SEO
+*   Easy to customize
+*   Quick deployment options (e.g., Vercel)
+
+## Technologies Used
+
+*   [Next.js](https://nextjs.org/)
+*   [React](https://reactjs.org/)
+*   (Add other technologies like Tailwind CSS, TypeScript, etc., if applicable)
 
 ## Getting Started
 
@@ -18,19 +36,22 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is deployed on [Firebase](https://firebase.google.com/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can view the live site here: [https://dnice-consultant-web.web.app/commercial-strategy/](https://dnice-consultant-web.web.app/commercial-strategy/)
 
-## Deploy on Vercel
+## Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Here are some screenshots of the website:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Screenshot 1 Description](./demo-images/demo1.png)
+![Screenshot 1 Description](./demo-images/demo2.png)
+
+
+
+
