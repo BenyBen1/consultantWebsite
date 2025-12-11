@@ -185,6 +185,12 @@ export default function CommercialStrategy() {
 							Home
 						</Link>
 						<Link
+							href='/#services'
+							className='hover:text-amber-500 transition'
+						>
+							Services
+						</Link>
+						<Link
 							href='/#testimonials'
 							className='hover:text-amber-500 transition'
 						>

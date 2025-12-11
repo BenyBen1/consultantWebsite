@@ -11,141 +11,6 @@ export default function FAQ() {
 
   const faqSections = [
     {
-      title: "General Services (Loan Sourcing Consultancy)",
-      faqs: [
-        {
-          category: "Personal Loan Sourcing",
-          questions: [
-            {
-              q: "What types of personal loans can D'nice Investments help me find?",
-              a: "We source personal loans for various needs, including debt consolidation, home improvements, medical expenses, or unexpected emergencies, with competitive rates tailored to your financial situation."
-            },
-            {
-              q: "How long does it take to secure a personal loan through your service?",
-              a: "The timeline varies, but we typically connect you with lenders within 1-3 business days, with loan approval depending on the lender's process and your application."
-            }
-          ]
-        },
-        {
-          category: "Business Loan Facilitation",
-          questions: [
-            {
-              q: "Can you help startups with no credit history get business loans?",
-              a: "Yes, we work with lenders offering startup-friendly loans and can guide you on building a strong application to improve approval chances."
-            },
-            {
-              q: "What types of businesses do you assist with loan facilitation?",
-              a: "We support small and medium-sized enterprises (SMEs) across industries, including retail, tech, manufacturing, and more, for needs like expansion or equipment financing."
-            }
-          ]
-        },
-        {
-          category: "Mortgage Loan Consulting",
-          questions: [
-            {
-              q: "Do you help with both residential and buy-to-let mortgages?",
-              a: "Yes, we source competitive mortgage options for home purchases, refinancing, and buy-to-let investments, tailored to your financial goals."
-            },
-            {
-              q: "What documents are needed for mortgage loan consulting?",
-              a: "Typically, you'll need proof of income, credit history, ID, and property details. We'll guide you through the exact requirements based on the lender."
-            }
-          ]
-        },
-        {
-          category: "Credit Score Improvement Guidance",
-          questions: [
-            {
-              q: "How can you help improve my credit score?",
-              a: "We provide personalized strategies, such as managing debt, correcting credit report errors, and optimizing payment habits, to boost your score over time."
-            },
-            {
-              q: "How long does it take to see credit score improvements?",
-              a: "Improvements vary, but with consistent effort, you may see results within 3-6 months, depending on your starting point and financial habits."
-            }
-          ]
-        },
-        {
-          category: "Loan Comparison and Analysis",
-          questions: [
-            {
-              q: "How do you ensure I get the best loan terms?",
-              a: "We compare loan products from multiple lenders, analyzing interest rates, repayment terms, and fees to find the best fit for your needs."
-            },
-            {
-              q: "Are there any fees for your loan comparison service?",
-              a: "Our consultation is free, though some lenders may charge application or processing fees, which we'll disclose upfront."
-            }
-          ]
-        },
-        {
-          category: "Specialized Loan Programs",
-          questions: [
-            {
-              q: "What are specialized loan programs, and who qualifies?",
-              a: "These include bad credit loans, bridging loans, or government-backed schemes for clients with unique needs, such as low credit scores or short-term financing requirements."
-            },
-            {
-              q: "Can you help with government-backed loan programs?",
-              a: "Yes, we identify and guide you through eligible government schemes, ensuring you meet criteria and complete applications correctly."
-            }
-          ]
-        },
-        {
-          category: "Application Support and Documentation",
-          questions: [
-            {
-              q: "What kind of support do you provide for loan applications?",
-              a: "We assist with preparing documents, filling out applications, and ensuring compliance with lender requirements to streamline the process."
-            },
-            {
-              q: "Can you help if I've been rejected for a loan before?",
-              a: "Yes, we review past rejections, address issues (e.g., credit or documentation), and match you with lenders more likely to approve."
-            }
-          ]
-        },
-        {
-          category: "Debt Restructuring and Consolidation",
-          questions: [
-            {
-              q: "How does debt consolidation work with your service?",
-              a: "We help combine multiple debts into a single loan with lower rates or better terms, simplifying payments and reducing financial strain."
-            },
-            {
-              q: "Will debt consolidation affect my credit score?",
-              a: "Consolidation can improve your score over time by reducing missed payments, but applying for a new loan may cause a temporary dip."
-            }
-          ]
-        },
-        {
-          category: "Lender Negotiation Services",
-          questions: [
-            {
-              q: "What terms can you negotiate with lenders on my behalf?",
-              a: "We negotiate interest rates, repayment schedules, and fees to secure more favorable loan conditions tailored to your needs."
-            },
-            {
-              q: "Do I need to meet lenders directly for negotiations?",
-              a: "No, we handle lender communications on your behalf, keeping you informed throughout the process."
-            }
-          ]
-        },
-        {
-          category: "Financial Advisory for Loan Eligibility",
-          questions: [
-            {
-              q: "How do you assess my loan eligibility?",
-              a: "We evaluate your financial profile, including income, credit history, and debt-to-income ratio, to recommend suitable loan products."
-            },
-            {
-              q: "Can you help if I have a low income or poor credit?",
-              a: "Yes, we offer tailored advice to improve eligibility and connect you with lenders who specialize in flexible criteria."
-            }
-          ]
-        }
-      ]
-    },
-    {
       title: "Commercial Strategy Services",
       faqs: [
         {
@@ -315,9 +180,9 @@ export default function FAQ() {
           <h1 className="text-3xl font-oswald tracking-tight uppercase text-amber-500">D&apos;nice Investments</h1>
           <nav className="mt-2 md:mt-0 flex gap-6 text-lg font-lato">
             <Link href="/" className="hover:text-amber-500 transition">Home</Link>
+            <Link href="/#services" className="hover:text-amber-500 transition">Services</Link>
             <Link href="/#testimonials" className="hover:text-amber-500 transition">Testimonials</Link>
             <Link href="/#contact" className="hover:text-amber-500 transition">Contact</Link>
-            <Link href="/faq" className="hover:text-amber-500 transition">FAQ</Link>
           </nav>
         </div>
       </header>
